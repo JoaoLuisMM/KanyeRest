@@ -25,7 +25,7 @@ export default function App(){
         <FontAwesome5 name="quote-right" style={{fontSize: 15, textAlign: 'right', marginTop: -20, marginBottom: 20}} color={'#000'}/>
         <Text style={styles.nomeAutor}>-- Kanye West</Text>
         <TouchableOpacity onPress={( ) => {fetchKanyeQuote()}} style={styles.botao}>
-          <Text style={styles.textoBotao}>O que o gênio disse?</Text>
+          <Text style={styles.textoBotao}>O que disse o gênio ?</Text>
         </TouchableOpacity>
         </View>
       </View>
